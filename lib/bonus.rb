@@ -20,7 +20,10 @@ def bonus
    }
   }
 
-  #code your solution here:
+  def kill_chars
+    epic_tragedy[:capulet][:heroine][:status] = "dead"
+    epic_tragedy[:montague][:hero][:status] = "dead"
+  end
 
   
 
